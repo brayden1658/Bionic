@@ -15,11 +15,11 @@ C:/Users/leoni/Desktop/Uni Year 2 Semester 2/Software Development Project/Bionic
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50466
+57770
 Successfully changed project path to: C:/Users/leoni/Desktop/Uni Year 2 Semester 2/Software Development Project/Bionic
 C:/Users/leoni/Desktop/Uni Year 2 Semester 2/Software Development Project/Bionic
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 33.38 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 111.08 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -35,155 +35,58 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56944
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001566 seconds.
+Registered in 0.116168 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 33.05 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 31.00 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.911 seconds
+- Completed reload, in  3.493 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003204 seconds.
+Registered in 0.458213 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.869 seconds
+- Completed reload, in  2.610 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1499 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 79.3 MB.
-System memory in use after: 79.0 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1939.
-Total: 1.759600 ms (FindLiveObjects: 0.129000 ms CreateObjectMapping: 0.042300 ms MarkObjects: 1.431100 ms  DeleteObjects: 0.156600 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Flooded_Grounds/Scenes
-  artifactKey: Guid(31e2e1d8e55bde84ea36da51fd5c6a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Scenes using Guid(31e2e1d8e55bde84ea36da51fd5c6a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6682897c4a3ddb66460e76e45e13ef5') in 0.006249 seconds
-  Import took 0.008325 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Flooded_Grounds/Scenes/Scene_A_Terrain.asset
-  artifactKey: Guid(3067f4c4673ebb049b67c5cadc9ef499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Scenes/Scene_A_Terrain.asset using Guid(3067f4c4673ebb049b67c5cadc9ef499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac6d2d209ccb35e0b399e1015baae1a') in 0.160357 seconds
-  Import took 0.166902 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000122 seconds.
-  path: Assets/Flooded_Grounds/Scenes/Postprocess_FloodedGrounds.asset
-  artifactKey: Guid(29ac70c6bc481c64fb76807cbc16dc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Scenes/Postprocess_FloodedGrounds.asset using Guid(29ac70c6bc481c64fb76807cbc16dc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba2ec15f84418a874115215271b7654') in 0.015964 seconds
-  Import took 0.019013 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.449576 seconds.
-  path: Assets/Flooded_Grounds/Scenes/Scene_A.unity
-  artifactKey: Guid(c0d944ca9defd20449bc336e50d75a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Scenes/Scene_A.unity using Guid(c0d944ca9defd20449bc336e50d75a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e090b8d62385e3c933be3b2bfd4933a3') in 0.006778 seconds
-  Import took 0.010714 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003654 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.304 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1464 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.4 MB.
-System memory in use after: 76.6 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1945.
-Total: 2.606900 ms (FindLiveObjects: 0.264300 ms CreateObjectMapping: 0.059200 ms MarkObjects: 1.817400 ms  DeleteObjects: 0.464600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004380 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.196 seconds
-Platform modules already initialized, skipping
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
 Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1464 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.8 MB.
-System memory in use after: 76.6 MB.
+Unloading 1499 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.6 MB.
+System memory in use after: 91.0 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1948.
-Total: 1.896500 ms (FindLiveObjects: 0.180700 ms CreateObjectMapping: 0.055500 ms MarkObjects: 1.530900 ms  DeleteObjects: 0.128700 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 1953.
+Total: 2.190700 ms (FindLiveObjects: 0.179800 ms CreateObjectMapping: 0.062600 ms MarkObjects: 1.661100 ms  DeleteObjects: 0.286300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 308.364103 seconds.
-  path: Assets/Flooded_Grounds/Scenes/Menu GUI
-  artifactKey: Guid(4c447624bbcc76d4f89f12fc618c3b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Scenes/Menu GUI using Guid(4c447624bbcc76d4f89f12fc618c3b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d45ab84a316f90812c0c6d56796f24a') in 0.007335 seconds
-  Import took 0.009850 seconds .
+  path: Assets/Flooded_Grounds/Main Menu GUI.unity
+  artifactKey: Guid(6e6630f67034d7444ba9eecf85d69cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Main Menu GUI.unity using Guid(6e6630f67034d7444ba9eecf85d69cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67fec1d858859cbd5b69e7b6b100c557') in 0.013864 seconds
+  Import took 0.016612 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003132 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.814 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1464 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.9 MB.
-System memory in use after: 76.6 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1951.
-Total: 1.825100 ms (FindLiveObjects: 0.197500 ms CreateObjectMapping: 0.062900 ms MarkObjects: 1.446500 ms  DeleteObjects: 0.117200 ms)
+Received Import Request.
+  Time since last request: 61.172934 seconds.
+  path: Assets/Flooded_Grounds/mock up 8.png
+  artifactKey: Guid(e1a9491c2e5e17a42a6e88062fbff7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/mock up 8.png using Guid(e1a9491c2e5e17a42a6e88062fbff7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d3df290e9c80ed3af294d79b69834c0') in 0.045831 seconds
+  Import took 0.048484 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003965 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.842 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1464 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.9 MB.
-System memory in use after: 76.6 MB.
+Received Import Request.
+  Time since last request: 9.268556 seconds.
+  path: Assets/Flooded_Grounds/mock up 8.png
+  artifactKey: Guid(e1a9491c2e5e17a42a6e88062fbff7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/mock up 8.png using Guid(e1a9491c2e5e17a42a6e88062fbff7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a01826be72d7d44dece224beba15d9ff') in 0.051397 seconds
+  Import took 0.054088 seconds .
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1954.
-Total: 1.547200 ms (FindLiveObjects: 0.137500 ms CreateObjectMapping: 0.044100 ms MarkObjects: 1.249600 ms  DeleteObjects: 0.115300 ms)
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
