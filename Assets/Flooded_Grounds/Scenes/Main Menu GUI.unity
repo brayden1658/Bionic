@@ -408,8 +408,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
-    m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0.44705883}
-    m_PressedColor: {r: 0, g: 0, b: 0, a: 0.28235295}
+    m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0.35686275}
+    m_PressedColor: {r: 0, g: 0, b: 0, a: 0.7529412}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -522,7 +522,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 9dbf3fbf7ae6f9c44a83cc9d1e18e712, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.634
+  m_Volume: 0.111
   m_Pitch: 1
   Loop: 0
   Mute: 0
